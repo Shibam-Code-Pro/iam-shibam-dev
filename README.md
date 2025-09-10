@@ -144,6 +144,15 @@ iam-shibam-dev/
 │   ├── projects.js        # Portfolio projects
 │   └── skills.js          # Skills and experience
 ├── public/                # Static assets
+│   ├── favicon_io/        # Complete favicon set
+│   │   ├── android-chrome-192x192.png
+│   │   ├── android-chrome-512x512.png
+│   │   ├── android-chrome-1600x1600.png
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   ├── favicon.ico
+│   │   └── site.webmanifest
 │   ├── projects/          # Project images
 │   │   ├── project-1.png
 │   │   ├── project-2.png
