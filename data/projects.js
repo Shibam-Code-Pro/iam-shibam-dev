@@ -121,7 +121,7 @@ export const projects = [
     category: "Responsive",
     featured: false,
     image: "/projects/project-9.png",
-    liveUrl: "https://googlle-homepage-shibam.netlify.app/",
+    liveUrl: "https://goog-homepage-shibam.netlify.app/",
     codeUrl: "https://github.com/Shibam-Code-Pro/google-homepage-shibam",
     status: "Completed"
   }
