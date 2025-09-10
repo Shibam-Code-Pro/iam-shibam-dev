@@ -167,6 +167,7 @@ iam-shibam-dev/
 ├── .prettierrc            # Code formatting
 ├── EMAIL_SETUP_GUIDE.md   # Email setup instructions
 ├── jsconfig.json          # JavaScript configuration
+├── LICENSE                # MIT License
 ├── next.config.js         # Next.js configuration
 ├── package.json           # Dependencies & scripts
 ├── postcss.config.js      # PostCSS configuration
