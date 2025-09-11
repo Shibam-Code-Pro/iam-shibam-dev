@@ -1,6 +1,20 @@
 # 🚀 Shibam Banerjee - Portfolio Website
 
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 A modern, responsive portfolio website built with Next.js 14 and featuring a stunning neon cyber aesthetic. This portfolio showcases my skills, projects, and experience as a Frontend Web Developer from Kolkata, India.
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshot/iam-shibam-dev.png" alt="Shibam Banerjee Portfolio Website" width="800">
+  <p><em>Modern portfolio website with neon cyber aesthetic and interactive animations</em></p>
+</div>
 
 ## ✨ Live Demo
 
@@ -96,36 +110,36 @@ npm start
 
 ```
 iam-shibam-dev/
-├── app/                    # Next.js 14 App Router
-│   ├── about/             # About page
+├── 📱 app/                    # Next.js 14 App Router
+│   ├── 👨‍💻 about/             # About page
 │   │   └── page.js
-│   ├── api/               # API routes
+│   ├── 🔌 api/               # API routes
 │   │   └── contact/
 │   │       └── route.js
-│   ├── blog/              # Blog pages
+│   ├── 📝 blog/              # Blog pages
 │   │   ├── [slug]/
 │   │   │   └── page.js
 │   │   ├── layout.js
 │   │   └── page.js
-│   ├── contact/           # Contact page
+│   ├── 📞 contact/           # Contact page
 │   │   └── page.js
-│   ├── cv/                # CV page
+│   ├── 📋 cv/                # CV page
 │   │   └── page.js
-│   ├── portfolio/         # Portfolio showcase
+│   ├── 💼 portfolio/         # Portfolio showcase
 │   │   └── page.js
-│   ├── projects/          # Individual project pages
+│   ├── 🔗 projects/          # Individual project pages
 │   │   └── [id]/
 │   │       └── page.js
-│   ├── privacy/           # Privacy policy
+│   ├── 🔒 privacy/           # Privacy policy
 │   │   └── page.js
-│   ├── terms/             # Terms of service
+│   ├── 📜 terms/             # Terms of service
 │   │   └── page.js
-│   ├── error.js           # Custom 500 error page
-│   ├── not-found.js       # Custom 404 error page
-│   ├── globals.css        # Global styles & animations
-│   ├── layout.js          # Root layout with SEO
-│   └── page.js            # Home page with loading screen
-├── components/            # Reusable components
+│   ├── ❌ error.js           # Custom 500 error page
+│   ├── 🚫 not-found.js       # Custom 404 error page
+│   ├── 🎨 globals.css        # Global styles & animations
+│   ├── 🏗️ layout.js          # Root layout with SEO
+│   └── 🏠 page.js            # Home page with loading screen
+├── 🧩 components/            # Reusable components
 │   ├── Accordion.js       # FAQ accordion
 │   ├── AnimatedHeading.js # GSAP text animations
 │   ├── BlogCard.js        # Blog post cards
@@ -139,12 +153,12 @@ iam-shibam-dev/
 │   ├── ProjectCard.js     # Project showcase cards
 │   ├── SectionWrapper.js  # Scroll-triggered animations
 │   └── SkillsGrid.js      # Skills display grid
-├── data/                  # Static data files
+├── 📊 data/                  # Static data files
 │   ├── blogs.js           # Blog posts data
 │   ├── projects.js        # Portfolio projects
 │   └── skills.js          # Skills and experience
-├── public/                # Static assets
-│   ├── favicon_io/        # Complete favicon set
+├── 🌐 public/                # Static assets
+│   ├── 🎯 favicon_io/        # Complete favicon set
 │   │   ├── android-chrome-192x192.png
 │   │   ├── android-chrome-512x512.png
 │   │   ├── android-chrome-1600x1600.png
@@ -153,27 +167,48 @@ iam-shibam-dev/
 │   │   ├── favicon-32x32.png
 │   │   ├── favicon.ico
 │   │   └── site.webmanifest
-│   ├── projects/          # Project images
+│   ├── 🖼️ projects/          # Project images
 │   │   ├── project-1.png
 │   │   ├── project-2.png
 │   │   └── [6 more images]
-│   ├── profile-picture.png
-│   ├── resume.pdf         # Downloadable CV
-│   ├── robots.txt         # SEO robots file
-│   └── sitemap.xml        # SEO sitemap
-├── .env.local             # Environment variables
-├── .eslintrc.json         # ESLint configuration
-├── .gitignore             # Git ignore rules
-├── .prettierrc            # Code formatting
-├── EMAIL_SETUP_GUIDE.md   # Email setup instructions
-├── jsconfig.json          # JavaScript configuration
-├── LICENSE                # MIT License
-├── next.config.js         # Next.js configuration
-├── package.json           # Dependencies & scripts
-├── postcss.config.js      # PostCSS configuration
-├── README.md              # Project documentation
-└── tailwind.config.js     # Tailwind CSS configuration
+│   ├── 👤 profile-picture.png
+│   ├── 📄 resume.pdf         # Downloadable CV
+│   ├── 🤖 robots.txt         # SEO robots file
+│   └── 🗺️ sitemap.xml        # SEO sitemap
+├── 📸 screenshot/            # Project screenshots
+│   └── iam-shibam-dev.png
+├── 🔐 .env.local             # Environment variables
+├── 📏 .eslintrc.json         # ESLint configuration
+├── 🚫 .gitignore             # Git ignore rules
+├── 💅 .prettierrc            # Code formatting
+├── 📧 EMAIL_SETUP_GUIDE.md   # Email setup instructions
+├── ⚙️ jsconfig.json          # JavaScript configuration
+├── 📜 LICENSE                # MIT License
+├── 🔧 next.config.js         # Next.js configuration
+├── 📦 package.json           # Dependencies & scripts
+├── 🎨 postcss.config.js      # PostCSS configuration
+├── 📖 README.md              # Project documentation
+└── 🎨 tailwind.config.js     # Tailwind CSS configuration
 ```
+
+## 🛠️ Technologies Used
+
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40" height="40"/><br><b>Next.js 14</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40"/><br><b>React 18</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="40" height="40"/><br><b>Tailwind CSS</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/><br><b>JavaScript</b></td>
+<td align="center"><img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" width="40" height="40"/><br><b>Framer Motion</b></td>
+</tr>
+<tr>
+<td align="center"><img src="https://greensock.com/uploads/monthly_2020_03/tweenmax.png.cf27916e926fdb37c7b1b157b8b61b3c.png" width="40" height="40"/><br><b>GSAP</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40"/><br><b>Node.js</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/><br><b>Git</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="40" height="40"/><br><b>VS Code</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="40" height="40"/><br><b>Vercel</b></td>
+</tr>
+</table>
 
 ## 🎯 Customization Guide
 
