@@ -18,7 +18,7 @@ A modern, responsive portfolio website built with Next.js 14 and featuring a stu
 
 ## ✨ Live Demo
 
-🌐 **[View Live Portfolio](https://iam-shibam-dev.vercel.app/)**
+🌐 **[View Shibam Banerjee - Portfolio Website](https://iam-shibam-dev.vercel.app/)**
 
 ## 🚀 Key Features
 
